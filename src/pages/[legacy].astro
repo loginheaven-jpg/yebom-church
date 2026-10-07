@@ -1,0 +1,19 @@
+---
+import LegacyPageContent from '../components/LegacyPageContent.astro';
+import { staticWixPages } from '../data/wix-static';
+
+export function getStaticPaths() {
+  const bespokePaths = new Set(['/', '/about', '/vision', '/people', '/mission', '/worship', '/housechurch', '/lifestudy', '/groups']);
+  const legacyPages = staticWixPages.filter((page) => !bespokePaths.has(page.path));
+  return legacyPages.map((page) => ({
+    params: { legacy: decodeURI(page.slug) },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const lifeStudy = /^\/lifestudy\d{2}$/.test(page.path);
+const duplicatePaths = new Set(['/forum', '/members', '/categories', '/%EB%B3%B5%EC%A0%9C-%EC%98%88%EB%B4%84%ED%94%BC%ED%94%8C', '/%EC%98%88%EB%B4%84%EA%B2%8C%EC%8B%9C%ED%8C%90', '/home%EB%B0%B1%EC%97%85']);
+---
+
+<LegacyPageContent page={page} title={page.headline} intro={lifeStudy ? `${page.headline} 과정과 진도표를 안내합니다.` : undefined} noIndex={duplicatePaths.has(page.path)} />

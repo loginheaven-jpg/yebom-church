@@ -1,9 +1,9 @@
 ﻿---
-import Layout from '../layouts/Layout.astro';
+import LegacyPageContent from '../components/LegacyPageContent.astro';
+import { getStaticWixPage } from '../data/wix-static';
+
+const page = getStaticWixPage('/people');
+if (!page) throw new Error('Wix people snapshot is missing.');
 ---
-<Layout title="people">
-    <div class="py-20 text-center max-w-4xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 uppercase">people</h1>
-        <p class="text-xl text-gray-600">이 페이지는 현재 준비 중이거나 업데이트 중입니다.</p>
-    </div>
-</Layout>
+
+<LegacyPageContent page={page} title="예봄피플" intro="예봄교회를 섬기는 이들을 소개합니다." />

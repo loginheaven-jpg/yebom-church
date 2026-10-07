@@ -1,9 +1,44 @@
 ﻿---
 import Layout from '../layouts/Layout.astro';
+import { formatPublishedAt, groups, publicPosts } from '../data/posts';
 ---
-<Layout title="groups">
-    <div class="py-20 text-center max-w-4xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 uppercase">groups</h1>
-        <p class="text-xl text-gray-600">이 페이지는 현재 준비 중이거나 업데이트 중입니다.</p>
-    </div>
+
+<Layout title="말씀과 나눔" description="예봄교회의 예배영상, 목회칼럼, 성경읽기 해설과 은혜나눔을 공개 아카이브로 제공합니다.">
+  <article class="archive-page">
+    <header class="archive-page__lead">
+      <span>YEBOM ARCHIVE</span>
+      <h1>말씀과 나눔</h1>
+      <p>로그인 없이 예봄교회의 말씀과 나눔을 읽고 시청할 수 있습니다.</p>
+      <div aria-hidden="true"></div>
+    </header>
+
+    <section class="archive-groups" aria-label="공개 그룹">
+      {groups.map((group) => (
+        <a href={`#${group.slug}`}>
+          <strong>{group.name}</strong>
+          <span>{group.count}개 게시물</span>
+        </a>
+      ))}
+    </section>
+
+    {groups.map((group) => {
+      const posts = publicPosts.filter((post) => post.groupSlug === group.slug);
+      return (
+        <section class="archive-group" id={group.slug}>
+          <h2>{group.name}</h2>
+          <ol>
+            {posts.map((post) => (
+              <li>
+                <a href={`/group/${post.groupSlug}/discussion/${post.legacyId}`}>
+                  <time datetime={post.publishedAt ?? undefined}>{formatPublishedAt(post.publishedAt)}</time>
+                  <strong>{post.title}</strong>
+                  <span>{post.videos.length ? '영상' : post.images.length ? '이미지' : '글'}</span>
+                </a>
+              </li>
+            ))}
+          </ol>
+        </section>
+      );
+    })}
+  </article>
 </Layout>

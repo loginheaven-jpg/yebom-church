@@ -1,0 +1,17 @@
+{
+  "provider": "Cloudflare R2",
+  "bucket": "yebom-church-assets",
+  "publicOrigin": "https://pub-a39aa2603ec34a0ca21882496cb15109.r2.dev",
+  "scope": "preview-only",
+  "replacementPlan": "도메인 전환 승인 단계에서 assets.yebom.org 같은 Cloudflare 사용자 지정 도메인으로 교체",
+  "assets": {
+    "2026_0125 예봄주보.pdf": {
+      "objectKey": "downloads/bulletins/2026_0125-yebom-weekly-bulletin.pdf",
+      "url": "https://pub-a39aa2603ec34a0ca21882496cb15109.r2.dev/downloads/bulletins/2026_0125-yebom-weekly-bulletin.pdf",
+      "size": 68848659,
+      "sha256": "29586de075f7c88b5c25d0277c839ef9b35393dfb7d22080da7314e639d17e89",
+      "r2Etag": "711ca030638178f11a7c50632504589f",
+      "contentType": "application/pdf"
+    }
+  }
+}

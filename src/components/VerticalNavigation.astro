@@ -1,0 +1,33 @@
+---
+import { navigation } from '../data/site';
+
+const currentPath = Astro.url.pathname;
+const isCurrent = (href: string) => href === '/' ? currentPath === '/' : currentPath === href || currentPath.startsWith(`${href}/`);
+---
+
+<nav class="desktop-navigation" aria-label="주요 메뉴">
+  <ul>
+    {navigation.map((item) => (
+      <li>
+        <a href={item.href} class:list={{ 'is-current': isCurrent(item.href) }} aria-current={isCurrent(item.href) ? 'page' : undefined}>
+          {item.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<details class="mobile-navigation">
+  <summary aria-label="메뉴 열기">메뉴</summary>
+  <nav aria-label="모바일 주요 메뉴">
+    <ul>
+      {navigation.map((item) => (
+        <li>
+          <a href={item.href} class:list={{ 'is-current': isCurrent(item.href) }} aria-current={isCurrent(item.href) ? 'page' : undefined}>
+            {item.label}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+</details>

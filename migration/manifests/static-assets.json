@@ -1,0 +1,660 @@
+{
+  "sourceManifest": "migration/manifests/static-snapshot.json",
+  "assetCount": 93,
+  "successCount": 93,
+  "failureCount": 0,
+  "totalBytes": 96616696,
+  "assets": [
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_23978233378c4d31b84ae215f38fc304f000.png",
+      "localPath": "/media/wix/11062b_23978233378c4d31b84ae215f38fc304f000.png",
+      "bytes": 711614,
+      "sha256": "1e99b79570dd10da4045c7070bb1d349340f534106ab359fd417f7f46029e62c",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_40811fcc9cac4a5bbfb0d93aaa94d70df000.jpg",
+      "localPath": "/media/wix/11062b_40811fcc9cac4a5bbfb0d93aaa94d70df000.jpg",
+      "bytes": 65751,
+      "sha256": "dc60aeb43028997584f82dd29ba7930884966cd03cf46e9876e90497f758898e",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_616ea7fc12e64f158a528c7e04cb4fc9f000.jpg",
+      "localPath": "/media/wix/11062b_616ea7fc12e64f158a528c7e04cb4fc9f000.jpg",
+      "bytes": 184521,
+      "sha256": "45ca04e172b4b40147697f0e629e79da837e04f96b24355e83d898da4064f53a",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_71b832b59b744d86bf0310d0fceb3055f000.jpg",
+      "localPath": "/media/wix/11062b_71b832b59b744d86bf0310d0fceb3055f000.jpg",
+      "bytes": 48130,
+      "sha256": "150a9c5b8904d80c6263c5b33a22b34aa29e92493d3438f495633233eb0aaf78",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_84c355575f25413287cab603169c6563f000.png",
+      "localPath": "/media/wix/11062b_84c355575f25413287cab603169c6563f000.png",
+      "bytes": 146525,
+      "sha256": "7312d87253e0115349e787eb29c41018cf6e11a98bd1901fb4dbefcc34beb50b",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_c313b4447fac44fcbc3402797ff4c426f000.jpg",
+      "localPath": "/media/wix/11062b_c313b4447fac44fcbc3402797ff4c426f000.jpg",
+      "bytes": 56552,
+      "sha256": "041f928e374a39be5a8f92e7b661f9c4a3c824fdbd3a9ee4a2be6ecd7a6de3ee",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_c8e8f9a0754440c28d2ce428eed3e74ef000.png",
+      "localPath": "/media/wix/11062b_c8e8f9a0754440c28d2ce428eed3e74ef000.png",
+      "bytes": 198129,
+      "sha256": "a123af91ac0cd07a4a1782639a5617d44bf894144644f0ac5daed8bfcaa10c39",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_e55321c53b02478b9bafa28958160488f000.jpg",
+      "localPath": "/media/wix/11062b_e55321c53b02478b9bafa28958160488f000.jpg",
+      "bytes": 586306,
+      "sha256": "79837fbe6ef39bf9c08d977cc37c193cf9fbcbfbbbf430fdb36f65cf50f08bb7",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_efa8eea2378d4ce3b8618f3b56384d03f000.png",
+      "localPath": "/media/wix/11062b_efa8eea2378d4ce3b8618f3b56384d03f000.png",
+      "bytes": 133530,
+      "sha256": "14852146973ecd3c3f10486c111e1e66637b4a5f74a6b56a0fa82272409d293f",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/11062b_f4324d20318b4007b1bb182fc0f6e9aef000.jpg",
+      "localPath": "/media/wix/11062b_f4324d20318b4007b1bb182fc0f6e9aef000.jpg",
+      "bytes": 171061,
+      "sha256": "cdffecc7103d56035b02842912cb8026ef6fc7500d840159e906c2b76bdf2bc1",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/1cd9b7_fa5dc5086eab48c2bf0f5df91358187a~mv2.jpeg",
+      "localPath": "/media/wix/1cd9b7_fa5dc5086eab48c2bf0f5df91358187a~mv2.jpeg",
+      "bytes": 2813743,
+      "sha256": "5905109baa582c8d4265b2fa34269cab19fc4d6b6d8805a6c808b3724b76c27a",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_01945f4dc53f428d9b93f11a92c27930~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_01945f4dc53f428d9b93f11a92c27930~mv2.jpg",
+      "bytes": 41700,
+      "sha256": "18cf9ece7a85b5cbd06ad7d47f6f930418e830ce35d273699f7a651fd9556031",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_0590672640d14481aa46e4ff5e898927~mv2.png",
+      "localPath": "/media/wix/4e60ed_0590672640d14481aa46e4ff5e898927~mv2.png",
+      "bytes": 1270,
+      "sha256": "e31b2e4e7265c04b8230d16e156b809ce7dae9359919d2bcaae731fb3f6c0e34",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_063bad4c1f98410ba7d6b2f98adb27be~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_063bad4c1f98410ba7d6b2f98adb27be~mv2.jpg",
+      "bytes": 232424,
+      "sha256": "9e1f1714b3afeb996346d90d22f5405390a6c4fa4ae0d85a033132168c7dfa8a",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_06bf46cd6db74aeb8acdb173548ed0ee~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_06bf46cd6db74aeb8acdb173548ed0ee~mv2.jpg",
+      "bytes": 2099320,
+      "sha256": "5a761300e35995cd0dff5abc4116a3ca8f5316a02694ddf2651d5fcb5d35ade9",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1125f1f24f784d0baf349cd74e4a59da~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_1125f1f24f784d0baf349cd74e4a59da~mv2.jpg",
+      "bytes": 404595,
+      "sha256": "8bebe37b12573d03bef2b9065b05ae90bdaa85e4fc751db1c3e3d4a7fdd7c7b3",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_14b4c7b3bd8f4cc7a1bdb07b8c07603e~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_14b4c7b3bd8f4cc7a1bdb07b8c07603e~mv2.jpg",
+      "bytes": 1188004,
+      "sha256": "f2c116bbbac47e1fa2c3a7e733be66a268d3c171b33a7e5c9ad3af974e4f2628",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_15c5871bc1414b4bab53dffaa6f8fd5b~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_15c5871bc1414b4bab53dffaa6f8fd5b~mv2.jpg",
+      "bytes": 565596,
+      "sha256": "215e4d916922fde63cbc6f19ffdb5176c8969b53ba603842c32750413baead70",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1a64a00bec2a4696a96dbc5681c6aab0~mv2.png",
+      "localPath": "/media/wix/4e60ed_1a64a00bec2a4696a96dbc5681c6aab0~mv2.png",
+      "bytes": 639989,
+      "sha256": "89376e99aa28aafd7f4bf233968c926bc08ce9061e11c308f70316b758610bf8",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1aeb1c51e45042c7843929cedb184845~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_1aeb1c51e45042c7843929cedb184845~mv2.jpg",
+      "bytes": 239093,
+      "sha256": "463b700fc1df04a690cc0bade76599c5bd33562e9efb8773a567e1bebf0ea00c",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1b5f86b18927448e9be60318407692a7~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_1b5f86b18927448e9be60318407692a7~mv2.jpg",
+      "bytes": 110053,
+      "sha256": "57f5dea9bb7d23b4a6734d9ad7dec8bb106c40ce4c4650998467c5d5bc6d6dfc",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1d25dd0a509d4fe8b0bf5f821c1ca1b9~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_1d25dd0a509d4fe8b0bf5f821c1ca1b9~mv2.jpg",
+      "bytes": 75197,
+      "sha256": "77b0499544127b08f66be73aef3f309601eb2e4f407f55ab0beeeb773707a550",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1fa152ee9780436fb4331d540295744a~mv2.jpeg",
+      "localPath": "/media/wix/4e60ed_1fa152ee9780436fb4331d540295744a~mv2.jpeg",
+      "bytes": 1613308,
+      "sha256": "d8d72591b5cf62809fbe11521a553712586d2a8c3be37f64b62d3efadfcd2c3f",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_1ff22c24a1294ac7a514da4a06f3734d~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_1ff22c24a1294ac7a514da4a06f3734d~mv2.jpg",
+      "bytes": 3767662,
+      "sha256": "3a564b309bd883ec7418f97ed2ccb0d740837a27c63d5822dd4dcf6f8b64075b",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_24c4aa1c6180495983253cda7f412d9a~mv2.gif",
+      "localPath": "/media/wix/4e60ed_24c4aa1c6180495983253cda7f412d9a~mv2.gif",
+      "bytes": 15568,
+      "sha256": "d6417e834433fe810c86076e156ac91ffcf620b9bf7a3f8cfab284e14b17ed5b",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_2603a44a39b4453a858bc9a3f93d71c9~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_2603a44a39b4453a858bc9a3f93d71c9~mv2.jpg",
+      "bytes": 18017,
+      "sha256": "c63f2d6cd59ab01a9dd5855b551a7d9cbbfe10ec50764b418c4f6d8e79bf9ee2",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_2ad38502bca14880bf7731ac85443640~mv2.png",
+      "localPath": "/media/wix/4e60ed_2ad38502bca14880bf7731ac85443640~mv2.png",
+      "bytes": 4051932,
+      "sha256": "17beb5e8f7679bcf79dedcce4460d9043d5161509494965b08604a50ea4b1690",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_319b343b65a044bca33dada45d40a150~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_319b343b65a044bca33dada45d40a150~mv2.jpg",
+      "bytes": 161762,
+      "sha256": "e682ac0a231f06abcb23d39cab8d25a3b7c9f55644f50e461794e644b7c2b658",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_320b0be52cb1401984c84002604be701~mv2.gif",
+      "localPath": "/media/wix/4e60ed_320b0be52cb1401984c84002604be701~mv2.gif",
+      "bytes": 52939,
+      "sha256": "2e685b0824ee939e58d409aadedc06fcb3c9f95a6c1fc1f1f1a2e35fc8178d8f",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_35099679b529490a9995cf3a23ff7328~mv2.png",
+      "localPath": "/media/wix/4e60ed_35099679b529490a9995cf3a23ff7328~mv2.png",
+      "bytes": 120046,
+      "sha256": "40f633f528850f89be55ff28c836412cbe8896044ddb5a1dbc8a9ea75ecbdaa9",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_3bfc70c83d1c43348adb277e36d4dd65~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_3bfc70c83d1c43348adb277e36d4dd65~mv2.jpg",
+      "bytes": 2428037,
+      "sha256": "4e589b2f64de877d4518d8fb48dc7f1fa74952f808a6a26596935f32739e55dd",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_40c94f574330490da1559455ceb06b45~mv2.png",
+      "localPath": "/media/wix/4e60ed_40c94f574330490da1559455ceb06b45~mv2.png",
+      "bytes": 6046,
+      "sha256": "46c1d117684ba289dd5483fbd169e7e48a1c8c7a812cb9e2d1b4d21b951006d9",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_4a474128f0c24ab7a05423573b6a610f~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_4a474128f0c24ab7a05423573b6a610f~mv2.jpg",
+      "bytes": 4876443,
+      "sha256": "0a45daaa13571c36499d9f14b2f4eea7272c5d3e0c983981bc66572d59b77c0d",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_4cbc2d6d054546aab2ad7ab8e3cbc735~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_4cbc2d6d054546aab2ad7ab8e3cbc735~mv2.jpg",
+      "bytes": 323330,
+      "sha256": "97663a1884862e36eed9fb2ea419d3c77ec7ff26cd56fb1755f9cd2dcf2de202",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_4d4c5ffb5f054eac8cc06bbc9772c132%7Emv2.jpg",
+      "localPath": "/media/wix/4e60ed_4d4c5ffb5f054eac8cc06bbc9772c132~mv2.jpg",
+      "bytes": 29059,
+      "sha256": "23c796e6d862caa73f250b054029c9e0517e1ea0726f5caf77a2609910acc7de",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_4df332e9be894fbea0822ea2f26efc14~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_4df332e9be894fbea0822ea2f26efc14~mv2.jpg",
+      "bytes": 4380097,
+      "sha256": "212d46571d8aa06d2590348e1324ae04af936d6e3ed21e8a6ff4f731fba14517",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_53515f0e6de54563b7c6b36875f226af~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_53515f0e6de54563b7c6b36875f226af~mv2.jpg",
+      "bytes": 651337,
+      "sha256": "4ba92dcf1b5b0ea3b8a8097f9b5698f0e18e4da635bca46cbc86613beed3d7f5",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_5d957c45a2354678a174fa2e37919e1e~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_5d957c45a2354678a174fa2e37919e1e~mv2.jpg",
+      "bytes": 557255,
+      "sha256": "2c1159f7bb0875dc2f225adf67861e725ad4125add6b3ef9b56bd49c416ce111",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_620c0b2095de4a3daf54ed10a98ab319~mv2.gif",
+      "localPath": "/media/wix/4e60ed_620c0b2095de4a3daf54ed10a98ab319~mv2.gif",
+      "bytes": 9176,
+      "sha256": "26802fde7b91e42f5da099473cc73dffda3214e6fd16131d8c2692268f025885",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_6827e00b04b94d739d2fb1a079c366ac~mv2.png",
+      "localPath": "/media/wix/4e60ed_6827e00b04b94d739d2fb1a079c366ac~mv2.png",
+      "bytes": 100372,
+      "sha256": "30db9d914cde3aa5f2727512d20249972f68659a86d0fa5ebd40eb6c135484d1",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_698f2b1625e449199dfa6fa1979b52fc~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_698f2b1625e449199dfa6fa1979b52fc~mv2.jpg",
+      "bytes": 4186704,
+      "sha256": "f8f0692e1ec290c9483fac5a1cc3210aeaa3265033724068ff85738001bcd5ef",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_722e4431e3494105a03ae3ea232bc977~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_722e4431e3494105a03ae3ea232bc977~mv2.jpg",
+      "bytes": 277302,
+      "sha256": "1019c5727e5cae72e27654699e86e475b38d7fe5b3c94e91f613bf676e2bd2ed",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_7e56180a96cb45729cddaf38b39a995a~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_7e56180a96cb45729cddaf38b39a995a~mv2.jpg",
+      "bytes": 481738,
+      "sha256": "077bd468254d6b053eaaa82821f2d594ad3ba2898bb8c941f7e3d18d7f2a23e1",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_82609a42af2d41668b961245066ee6ff~mv2.gif",
+      "localPath": "/media/wix/4e60ed_82609a42af2d41668b961245066ee6ff~mv2.gif",
+      "bytes": 9169,
+      "sha256": "4489140f42b21329516afadaafa7b1af0423d78f64bdf442b44546899b7896f3",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_82e12b75e175485997b05fb789c9bb69~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_82e12b75e175485997b05fb789c9bb69~mv2.jpg",
+      "bytes": 50860,
+      "sha256": "dc2e2a7c1cb6b1237cf9c446e2272b53ee21189ac92376973179c50c52660bd3",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_85aaa24575ab48a3bd59adc0d3bd1b33~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_85aaa24575ab48a3bd59adc0d3bd1b33~mv2.jpg",
+      "bytes": 5429171,
+      "sha256": "404da729fc3471e53ee4ff96acfd662e4af7d57398d4ef10df7ce783054a169b",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_874077e4c735471891dcd2f10e2f6471~mv2.png",
+      "localPath": "/media/wix/4e60ed_874077e4c735471891dcd2f10e2f6471~mv2.png",
+      "bytes": 115588,
+      "sha256": "70bbd0a286011ccc0977e967c988e9d5d629e0efdf017be5990330dc7a761661",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_8993f3bbd1d749f7a15f36344ff85da6~mv2.png",
+      "localPath": "/media/wix/4e60ed_8993f3bbd1d749f7a15f36344ff85da6~mv2.png",
+      "bytes": 12830,
+      "sha256": "d87181ca9c8d89f974913c854f34dc00a4e9ea1be5a3d783bcf5ccafc6dbc80d",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_8ec3f13cea454a0cb30a7e7b6ad275b8~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_8ec3f13cea454a0cb30a7e7b6ad275b8~mv2.jpg",
+      "bytes": 6940339,
+      "sha256": "3f39b2749721d9e9543f499737bafa17a982916c328c0305ed27cb09a9efe25f",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_8fbfcc47358a4312becf1cb2a9917e9d~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_8fbfcc47358a4312becf1cb2a9917e9d~mv2.jpg",
+      "bytes": 106782,
+      "sha256": "a3f2e32dda10ca68bbd85c35670ae665c494e26d1f4c7be32b74d974da202ebf",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_900af20419f14822abe3d554ed254ebb~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_900af20419f14822abe3d554ed254ebb~mv2.jpg",
+      "bytes": 7443469,
+      "sha256": "77668e9b3c6fa40f611f94d0c30a26467fe8171339f07c5a68997131edbfc629",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_91347c835aa740899bd47f8b748f3a92~mv2.gif",
+      "localPath": "/media/wix/4e60ed_91347c835aa740899bd47f8b748f3a92~mv2.gif",
+      "bytes": 8380,
+      "sha256": "209684e6e95622f1ec008cdb9ca6078c2d22409f64f828cdb118f299489616d8",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_97db176cf8094c1f878a62e6ccdbafc1~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_97db176cf8094c1f878a62e6ccdbafc1~mv2.jpg",
+      "bytes": 128296,
+      "sha256": "94e15d355a4f20c264c558105b641801ec446a4c4618135d3650e229c760f613",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_98162c9191b044549afe875d4b6ab682~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_98162c9191b044549afe875d4b6ab682~mv2.jpg",
+      "bytes": 202638,
+      "sha256": "de8546c194aaa69c87bacfee661341f573c29c0181fb767caa970b33fca38739",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_9cd91e7736134b2cb7d35c1fb51cd53d~mv2.gif",
+      "localPath": "/media/wix/4e60ed_9cd91e7736134b2cb7d35c1fb51cd53d~mv2.gif",
+      "bytes": 16411,
+      "sha256": "9768a94583dbb091782fed469d21357f29e3819cb626b8a678c64620e6cef452",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_9d5d93fb3c9947bdb4b7cce64f4aabad~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_9d5d93fb3c9947bdb4b7cce64f4aabad~mv2.jpg",
+      "bytes": 4315796,
+      "sha256": "1cd304d6c8ccacfad3dee6b188e585a3e386bc9f92557d1b9cf2750b184576d8",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_a1bfa04fd2944443827a3679b7597fe1~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_a1bfa04fd2944443827a3679b7597fe1~mv2.jpg",
+      "bytes": 3728058,
+      "sha256": "c1687396cee26e4845f2a7c52a2a7816081ab06ca08465ab220d135c4ddead19",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_a347f8e81f4e43389806eea0b7641ece~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_a347f8e81f4e43389806eea0b7641ece~mv2.jpg",
+      "bytes": 4347139,
+      "sha256": "9a7b1b24f4d65c94644451512bf2d315bf7b6c31a5615c2f28bd558df08e156a",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_a476c17e2a44417f9a197e6bc41d6cc2~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_a476c17e2a44417f9a197e6bc41d6cc2~mv2.jpg",
+      "bytes": 3835570,
+      "sha256": "9d9a40f49367d1a1c0b0ce9fab060220ac2d186b57ddbd6cb93f91094a9ccbac",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_a648d3b8f72940d781e9b125c795179c~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_a648d3b8f72940d781e9b125c795179c~mv2.jpg",
+      "bytes": 868201,
+      "sha256": "19505a8009a307d023350b8aca8b4ae37129b992cb47e37138b23aa4605ffa0b",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_a67b8fc7baa04b90b4760e19d0239819~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_a67b8fc7baa04b90b4760e19d0239819~mv2.jpg",
+      "bytes": 139719,
+      "sha256": "cc4d2d7073db897f05169197a0a80672c53b01ad2510d5b469868cd4c6a2da12",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_a8269c3062504c71904afe1c0699bae8~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_a8269c3062504c71904afe1c0699bae8~mv2.jpg",
+      "bytes": 198611,
+      "sha256": "96f159c77642577b9ff4635e366842de3c3a25f565afdec9ec5ac801eb53ec71",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_ab04e07eb8b74d9795a8a33113c77f91~mv2.png",
+      "localPath": "/media/wix/4e60ed_ab04e07eb8b74d9795a8a33113c77f91~mv2.png",
+      "bytes": 115888,
+      "sha256": "dffdaf29b61a1bc15e0ce04b92d10e1f93fb2c49ee365846e04a4035ea9dc189",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_ab513da3cee647fe863f230b2a8c6eac~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_ab513da3cee647fe863f230b2a8c6eac~mv2.jpg",
+      "bytes": 94932,
+      "sha256": "4b1b74fa055bfa8a0305d356b19e08605643c4ace32d5783fb9a36a53abcdaf7",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_abca28b6be8c48468d00b202712cfc03~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_abca28b6be8c48468d00b202712cfc03~mv2.jpg",
+      "bytes": 568048,
+      "sha256": "f53b915272562e908e84fb0a213532ebfc3b7ef0f101f26b9f54599ebbe1178a",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_aeeb8a4202154911beb19bce9ceab070~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_aeeb8a4202154911beb19bce9ceab070~mv2.jpg",
+      "bytes": 545574,
+      "sha256": "19adfba3fb2c7d3ca871741da7bfd3bfad9114f83cafc3c7e781eefa90e1988c",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_b2e4571c2107410bb7ef48fe1a14b946~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_b2e4571c2107410bb7ef48fe1a14b946~mv2.jpg",
+      "bytes": 246982,
+      "sha256": "a500889043fa1ae2b5f19d06d20df08ec9b92e68a26d4f2b645d1f4cfc73f9d4",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_b315048bd4324ffd8d1da463fbd0f532~mv2.jpeg",
+      "localPath": "/media/wix/4e60ed_b315048bd4324ffd8d1da463fbd0f532~mv2.jpeg",
+      "bytes": 232056,
+      "sha256": "ac5d0a7e1c41c03da8653fbaecbf55161388676b6777ee20480939eb44f62fca",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_b46e57117d5e40feb714c7cd96ab23b5~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_b46e57117d5e40feb714c7cd96ab23b5~mv2.jpg",
+      "bytes": 106143,
+      "sha256": "c20ef8692e6cd195cf51b73b9886a3b834611fb807a1ef2347feb1bcd38c9acd",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_b975d2592c9842e3aa797c3688e3c236~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_b975d2592c9842e3aa797c3688e3c236~mv2.jpg",
+      "bytes": 1373213,
+      "sha256": "859fbafce96f2b8811fd9e8c4f0822077786f526c9f82d3f573379e83901e5ea",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_bb725bb89877408abf95ea3661900371~mv2.gif",
+      "localPath": "/media/wix/4e60ed_bb725bb89877408abf95ea3661900371~mv2.gif",
+      "bytes": 14971,
+      "sha256": "bd320ffe2469436fbc453606a910598a837e29b8d6fca85023b19fd482c5fdf9",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_c05f89195c2f47888df434b7c21d1ae4~mv2.gif",
+      "localPath": "/media/wix/4e60ed_c05f89195c2f47888df434b7c21d1ae4~mv2.gif",
+      "bytes": 16300,
+      "sha256": "28eb78d476a8b3e7f2d4a925991e2e561614430b6942ce142f6bd117a4720ef3",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_c2cd831a1b4f4f198b0436dbc63d5719f000.jpg",
+      "localPath": "/media/wix/4e60ed_c2cd831a1b4f4f198b0436dbc63d5719f000.jpg",
+      "bytes": 843650,
+      "sha256": "13c2ffd1ad68f8b24f2c4172fa4a97d6cf8f0c68f92e6620e44fa19a89710153",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_c8272c0e36de47839d4e5b616dd5f8d4~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_c8272c0e36de47839d4e5b616dd5f8d4~mv2.jpg",
+      "bytes": 4184607,
+      "sha256": "b54e9fe536f480fad1adc0392759ab2f05652a1dc88e055cee1a28cba29da829",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_c9cc704dca1641fb941b4f4a82212c99%7Emv2.png",
+      "localPath": "/media/wix/4e60ed_c9cc704dca1641fb941b4f4a82212c99~mv2.png",
+      "bytes": 19871,
+      "sha256": "faf2d8f8417910a06374b89305cf7cff24cf10d2968cc97a29ca47f693069610",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_cd0af768bd8b4c65890adf7a7b413d2d~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_cd0af768bd8b4c65890adf7a7b413d2d~mv2.jpg",
+      "bytes": 139676,
+      "sha256": "e775926150ceeb27f5dcb6e7b666cfd26d7714f517376cc80f92cc12d36477d2",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_d431d25d30e347d68ac81c69f54fbe24~mv2.jpeg",
+      "localPath": "/media/wix/4e60ed_d431d25d30e347d68ac81c69f54fbe24~mv2.jpeg",
+      "bytes": 251115,
+      "sha256": "acc479b8d3fa0ce58d21c922b0c9ce2d8a58b26964295efb6985495f29eb0c04",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_d7c49693be7e42ec83ebe838e28056a4~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_d7c49693be7e42ec83ebe838e28056a4~mv2.jpg",
+      "bytes": 139402,
+      "sha256": "c7ce28f6b014128f8a3143f5b02076d644602a77b8264dfefbfd31b4ddea5446",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_d8ec1eb253f042d5b62e4ea38b0b3a25~mv2.gif",
+      "localPath": "/media/wix/4e60ed_d8ec1eb253f042d5b62e4ea38b0b3a25~mv2.gif",
+      "bytes": 15638,
+      "sha256": "93d4e8e4712d505ac0e0859d3b8fed290a32df895305dd5d1a1f9edc6bff2134",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_d9f388f5df744b248ff573b22aeacfba~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_d9f388f5df744b248ff573b22aeacfba~mv2.jpg",
+      "bytes": 87446,
+      "sha256": "5e24bf88784c0fc70af9a98693844c372f55536582fbc02483b4cbd7bdb45d4d",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_dac4240c6af24d5faf308f2a9200efba~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_dac4240c6af24d5faf308f2a9200efba~mv2.jpg",
+      "bytes": 259219,
+      "sha256": "b4b04131e594de367090936ed477b7493e945d6b1f07023b10c75181d59c62ea",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_de555891a0f940bcaad675acad6f5faf~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_de555891a0f940bcaad675acad6f5faf~mv2.jpg",
+      "bytes": 2599688,
+      "sha256": "88a2f75015b4e8fb6d09d7243752ed5ca42a68c2ff1e055ff60cb94e01fdb33b",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_e14b912b2c994b8dac5bb95ceaf971e8~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_e14b912b2c994b8dac5bb95ceaf971e8~mv2.jpg",
+      "bytes": 120722,
+      "sha256": "58f808ed40c9791e70c7c6454fb2739333393a1752d72086ceb4a7ea8d7a6440",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_e8d47c286f4c4a848e06fc8e3d062a35~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_e8d47c286f4c4a848e06fc8e3d062a35~mv2.jpg",
+      "bytes": 1083429,
+      "sha256": "dc32a6898fd1b82b1b102172201bb487d0ab70ce89e2d0ebdd70f0cb854a861c",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_e9fac73add314ca3b1620c0f639350ea~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_e9fac73add314ca3b1620c0f639350ea~mv2.jpg",
+      "bytes": 1268913,
+      "sha256": "2a0f434eb8079e2c01ca5b171af8b5a5489df5d07e460ebeb4d4b4ae695c97ed",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_eee947657381426fb38fc3e1a4a78042~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_eee947657381426fb38fc3e1a4a78042~mv2.jpg",
+      "bytes": 601843,
+      "sha256": "fd56eafeea1037c66c48059917f16c9a3a985668ce05e41c58e8b352752c9352",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_efc8fd0cdd034c0da105fce64cca60c1~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_efc8fd0cdd034c0da105fce64cca60c1~mv2.jpg",
+      "bytes": 952886,
+      "sha256": "46b21762c8a73493795b3e9f30137a44fe4fe80c41651b67bce7c3959d5260be",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_f5e74a172c8a4520ae8f349ebb719743~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_f5e74a172c8a4520ae8f349ebb719743~mv2.jpg",
+      "bytes": 122839,
+      "sha256": "917531235a124151ee3240482a83ce2d78958f90712629f6280b6098d0527743",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_f94f89bf1a73466db6d3a100f11021bf~mv2.jpeg",
+      "localPath": "/media/wix/4e60ed_f94f89bf1a73466db6d3a100f11021bf~mv2.jpeg",
+      "bytes": 1362380,
+      "sha256": "d11ef973336c3cdc8fdfb497ec6bf7475997b0234a0da1859a0c9a3144e9e2df",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_fb28fb0177054b0f84ee878a9e7fa89f~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_fb28fb0177054b0f84ee878a9e7fa89f~mv2.jpg",
+      "bytes": 88212,
+      "sha256": "282d9a9a53881fd1d3012ea15a58f53049aa3bc7004c1fe485687d04f8f6cff1",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_fd0e7e74a277424384d62aab211746b1~mv2.gif",
+      "localPath": "/media/wix/4e60ed_fd0e7e74a277424384d62aab211746b1~mv2.gif",
+      "bytes": 16300,
+      "sha256": "28eb78d476a8b3e7f2d4a925991e2e561614430b6942ce142f6bd117a4720ef3",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/4e60ed_ff197553406242d7b6dd22ddf740cbb0~mv2.jpg",
+      "localPath": "/media/wix/4e60ed_ff197553406242d7b6dd22ddf740cbb0~mv2.jpg",
+      "bytes": 57504,
+      "sha256": "50257e4bebf96e143338db4b6f454513b10720129f2a0f70fff1152a4cd2b01f",
+      "status": "ok"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/nsplsh_74414241746936516b6f34~mv2_d_3897_5204_s_4_2.jpg",
+      "localPath": "/media/wix/nsplsh_74414241746936516b6f34~mv2_d_3897_5204_s_4_2.jpg",
+      "bytes": 2368989,
+      "sha256": "f8820d108b2d4b3a4df082741f9772ceb97043701c8c3e075772792fe035214c",
+      "status": "ok"
+    }
+  ]
+}

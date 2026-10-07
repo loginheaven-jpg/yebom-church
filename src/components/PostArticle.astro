@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { formatPublishedAt, groupName, type PublicPost } from '../data/posts';
+import { localWixMedia } from '../data/wix-static';
+
+interface Props {
+  post: PublicPost;
+}
+
+const { post } = Astro.props;
+
+function youtubeEmbed(url: string) {
+  try {
+    const parsed = new URL(url);
+    const id = parsed.hostname === 'youtu.be' ? parsed.pathname.slice(1) : parsed.searchParams.get('v') ?? parsed.pathname.split('/').filter(Boolean).at(-1);
+    if (!id) return null;
+    const seconds = Number(parsed.searchParams.get('t') ?? 0);
+    return `https://www.youtube-nocookie.com/embed/${id}${seconds ? `?start=${seconds}` : ''}`;
+  } catch {
+    return null;
+  }
+}
+---
+
+<Layout title={post.title} description={`${groupName(post.groupSlug)} 게시물`}>
+  <article class="post-article">
+    <header class="post-article__lead">
+      <a href="/groups" class="post-article__group">{groupName(post.groupSlug)}</a>
+      <h1>{post.title}</h1>
+      <time datetime={post.publishedAt ?? undefined}>{formatPublishedAt(post.publishedAt)}</time>
+    </header>
+
+    <div class="post-article__body">
+      {post.bodyText.filter(Boolean).map((paragraph) => <p>{paragraph}</p>)}
+      {post.images.map((image) => <img src={localWixMedia(image.url)} alt={image.alt ?? ''} loading="lazy" />)}
+      {post.videos.map((video) => {
+        const embed = youtubeEmbed(video.url);
+        return embed ? (
+          <div class="post-article__video">
+            <iframe src={embed} title={video.title ?? post.title} loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        ) : <p><a class="post-article__external" href={video.url}>영상 보기</a></p>;
+      })}
+      {post.attachments.map((attachment) => <p><a class="post-article__external" href={attachment.url}>첨부 파일 다운로드</a></p>)}
+    </div>
+  </article>
+</Layout>

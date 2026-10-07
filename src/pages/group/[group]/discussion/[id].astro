@@ -1,0 +1,22 @@
+---
+import PostArticle from '../../../../components/PostArticle.astro';
+import LegacyUnavailablePost from '../../../../components/LegacyUnavailablePost.astro';
+import { publicPosts, unavailablePosts } from '../../../../data/posts';
+
+export function getStaticPaths() {
+  return [
+    ...publicPosts.map((post) => ({
+      params: { group: post.groupSlug, id: post.legacyId },
+      props: { post, unavailable: undefined },
+    })),
+    ...unavailablePosts.map((unavailable) => ({
+      params: { group: unavailable.groupSlug, id: unavailable.legacyId },
+      props: { post: undefined, unavailable },
+    })),
+  ];
+}
+
+const { post, unavailable } = Astro.props;
+---
+
+{post ? <PostArticle post={post} /> : unavailable ? <LegacyUnavailablePost post={unavailable} /> : null}

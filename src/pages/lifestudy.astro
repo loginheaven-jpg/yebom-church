@@ -1,9 +1,24 @@
 ﻿---
 import Layout from '../layouts/Layout.astro';
+import { lifeStudyPages } from '../data/wix-static';
 ---
-<Layout title="lifestudy">
-    <div class="py-20 text-center max-w-4xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 uppercase">lifestudy</h1>
-        <p class="text-xl text-gray-600">이 페이지는 현재 준비 중이거나 업데이트 중입니다.</p>
-    </div>
+
+<Layout title="삶공부" description="예봄교회 삶공부 과정과 진도표를 안내합니다.">
+  <article class="legacy-page life-study-index">
+    <header class="legacy-page__lead">
+      <span class="legacy-page__eyebrow">YEBOM LIFE STUDY</span>
+      <h1>삶공부</h1>
+      <p>예봄교회 삶공부의 각 과정과 진도표를 확인할 수 있습니다.</p>
+      <div aria-hidden="true"></div>
+    </header>
+    <nav class="life-study-index__grid" aria-label="삶공부 과정">
+      {lifeStudyPages.map((page) => (
+        <a href={page.path}>
+          <span>{page.path.replace('/lifestudy', '').padStart(2, '0')}</span>
+          <strong>{page.headline}</strong>
+          <i>과정 및 진도표 보기</i>
+        </a>
+      ))}
+    </nav>
+  </article>
 </Layout>

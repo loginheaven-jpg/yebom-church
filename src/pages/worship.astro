@@ -1,9 +1,9 @@
 ﻿---
-import Layout from '../layouts/Layout.astro';
+import LegacyPageContent from '../components/LegacyPageContent.astro';
+import { getStaticWixPage } from '../data/wix-static';
+
+const page = getStaticWixPage('/worship');
+if (!page) throw new Error('Wix worship snapshot is missing.');
 ---
-<Layout title="worship">
-    <div class="py-20 text-center max-w-4xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 uppercase">worship</h1>
-        <p class="text-xl text-gray-600">이 페이지는 현재 준비 중이거나 업데이트 중입니다.</p>
-    </div>
-</Layout>
+
+<LegacyPageContent page={page} title="예배안내" intro="예봄교회 예배와 모임을 안내합니다." />

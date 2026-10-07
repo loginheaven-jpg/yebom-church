@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/Layout.astro';
+import source from '../data/fileshare.json';
+
+type DownloadFile = {
+  name: string;
+  path: string;
+  size: number;
+  extension: string;
+  year: string;
+};
+
+const files = source.files as DownloadFile[];
+const grouped = Object.entries(
+  files.reduce<Record<string, DownloadFile[]>>((groups, file) => {
+    (groups[file.year] ??= []).push(file);
+    return groups;
+  }, {}),
+).sort(([left], [right]) => {
+  if (left === '기타') return 1;
+  if (right === '기타') return -1;
+  return Number(right) - Number(left);
+});
+
+const byteLabel = (size: number) => {
+  if (size < 1024 * 1024) return `${Math.ceil(size / 1024)} KB`;
+  return `${(size / (1024 * 1024)).toFixed(size >= 10 * 1024 * 1024 ? 0 : 1)} MB`;
+};
+---
+
+<Layout title="예봄 자료실" description={`예봄주보 ${source.fileCount}개를 로그인 없이 내려받을 수 있는 공개 자료실입니다.`}>
+  <article class="archive-page fileshare-page">
+    <header class="archive-page__lead">
+      <span>YEBOM CHURCH</span>
+      <h1>예봄 자료실</h1>
+      <p>예봄주보 {source.fileCount}개를 로그인 없이 바로 내려받을 수 있습니다.</p>
+      <div aria-hidden="true"></div>
+    </header>
+
+    <section class="fileshare-summary" aria-label="자료실 요약">
+      <p><strong>{source.folder}</strong> · 총 {source.fileCount}개 파일 · {(source.totalBytes / (1024 * 1024)).toFixed(1)} MB</p>
+      <p>Wix 자료실의 공개 원본을 정적 다운로드 파일로 이관했습니다.</p>
+    </section>
+
+    {grouped.map(([year, yearFiles], index) => (
+      <section class="archive-group fileshare-year" aria-labelledby={`fileshare-${year}`}>
+        <h2 id={`fileshare-${year}`}>{year}년 <span>{yearFiles.length}개</span></h2>
+        <ol>
+          {yearFiles.map((file) => (
+            <li>
+              <a href={file.path} download>
+                <time>{file.extension.toUpperCase()}</time>
+                <strong>{file.name}</strong>
+                <span>{byteLabel(file.size)} <b aria-hidden="true">↓</b></span>
+              </a>
+            </li>
+          ))}
+        </ol>
+        {index === 0 && <p class="fileshare-year__notice">파일을 누르면 즉시 다운로드가 시작됩니다.</p>}
+      </section>
+    ))}
+  </article>
+</Layout>
