@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yebom-church.pages.dev/sitemap.xml

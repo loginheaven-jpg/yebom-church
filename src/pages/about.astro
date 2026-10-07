@@ -1,9 +1,76 @@
 ﻿---
 import Layout from '../layouts/Layout.astro';
+
+const directions = [
+  ['01', '하나님을 향하여', '위로 하나님께 신령과 진정으로 예배하는 교회'],
+  ['02', '교회를 향하여', '평신도 사역자를 키우는 교회'],
+  ['03', '서로를 향하여', '옆으로 서로를 사랑하는 가족 이상의 교회'],
+  ['04', '세상을 향하여', '밖으로 세상을 섬기며 복음을 전파하는 교회'],
+  ['05', '미래를 향하여', '앞으로 자녀교육을 책임지는 교회'],
+];
 ---
-<Layout title="about">
-    <div class="py-20 text-center max-w-4xl mx-auto px-4">
-        <h1 class="text-4xl font-bold mb-6 uppercase">about</h1>
-        <p class="text-xl text-gray-600">이 페이지는 현재 준비 중이거나 업데이트 중입니다.</p>
-    </div>
+
+<Layout
+  title="예봄소개"
+  description="예수님 안에서 인생의 봄날이 시작되는 곳, 예봄교회를 소개합니다."
+  image="/media/images/about-forest.jpg"
+>
+  <article class="about-page">
+    <section class="about-lead" aria-labelledby="about-title">
+      <div>
+        <h1 id="about-title" class="about-lead__title">
+          예수님 안에서<br />
+          인생의 봄날이 시작되는 곳,<br />
+          예봄교회를 소개합니다.
+        </h1>
+        <div class="about-lead__rule" aria-hidden="true"></div>
+      </div>
+      <img class="about-lead__image" src="/media/images/about-forest.jpg" alt="햇살이 비치는 숲" width="515" height="329" />
+    </section>
+
+    <section class="about-copy" aria-label="예봄교회 소개">
+      <p>
+        예봄교회는 1986년 3월 16일 서울 목동에서 설립되어 2011년 5월 1일 현재의 장소에서 입당예배를 드림으로 판교시대를 열었습니다.
+        한 평생 성경적인 치유사역의 정립과 전파를 위해 힘쓰셨던 김남수 원로목사가 2017년 10월 21일 은퇴하신 후 최병희 목사가 부임하였습니다.
+      </p>
+      <p>
+        대한예수교장로회 합신교단에 속한 교회로서 교단신학교는 수원시 광교에 있는 합동신학대학원대학교입니다.
+        예봄교회는 주님께서 이 땅 가운데 세워 가시기를 소원하셨던 ‘성경적인 바로 그 교회’를 세워 가고자 ‘가정(목장)교회’를 지향합니다.
+        가족 그 이상의 가족이 되길 소망하며, 성령 안에서 각자의 은사를 따라 봉사하는 평신도가 세워가는 교회입니다.
+      </p>
+      <p class="about-invitation">이 놀랍고 특별한 예봄 공동체에 여러분을 초대합니다.</p>
+    </section>
+
+    <section class="about-section" aria-labelledby="mission-title">
+      <span class="about-section__kicker">예봄미션 · Mission</span>
+      <h2 id="mission-title">예봄미션</h2>
+      <p class="about-section__statement">
+        예수그리스도를 알지 못하는 이웃에게 생명의 복음을 전하여 하나님을 예배하게 하고 말씀으로 훈련하여 하나님과 교회와 세상을 섬기며 살게 한다.
+      </p>
+    </section>
+
+    <section class="about-section" aria-labelledby="vision-title">
+      <span class="about-section__kicker">예봄비전 · Vision</span>
+      <h2 id="vision-title">예봄비전</h2>
+      <p class="about-section__statement">
+        역사상 교회가 가장 교회다웠던 신약시대 초대교회의 모습을 회복하고자 가정교회를 지향합니다.
+        평신도가 주축이 된 작은 규모의 목장 공동체가 가정에서 모여 예배를 드리며 서로 가족처럼 삶을 나눔으로 하나님의 나라를 이루고,
+        그 가정교회가 모여 지역연합교회를 이루는 것이 예봄의 비전입니다.
+      </p>
+    </section>
+
+    <section class="about-section" aria-labelledby="direction-title">
+      <span class="about-section__kicker">예봄방향 · Direction</span>
+      <h2 id="direction-title">예봄방향</h2>
+      <div class="direction-grid">
+        {directions.map(([number, title, text]) => (
+          <section class="direction-item">
+            <p class="direction-item__number">{number}</p>
+            <h3 class="direction-item__title">{title}</h3>
+            <p class="direction-item__text">{text}</p>
+          </section>
+        ))}
+      </div>
+    </section>
+  </article>
 </Layout>

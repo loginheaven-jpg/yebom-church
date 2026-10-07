@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Yebom Gothic';
+  src: url('/media/fonts/gothic-a1-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yebom Gothic';
+  src: url('/media/fonts/gothic-a1-medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yebom Gothic';
+  src: url('/media/fonts/gothic-a1-semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yebom Gothic';
+  src: url('/media/fonts/gothic-a1-bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Yebom Gothic';
+  src: url('/media/fonts/gothic-a1-black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}

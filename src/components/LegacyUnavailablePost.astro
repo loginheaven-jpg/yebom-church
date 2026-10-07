@@ -1,0 +1,28 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { groupName, type UnavailablePost } from '../data/posts';
+
+interface Props {
+  post: UnavailablePost;
+}
+
+const { post } = Astro.props;
+---
+
+<Layout title="이전 게시물 기록" description="원본 사이트에서 더 이상 공개되지 않는 이전 게시물 주소입니다." noIndex>
+  <article class="post-article">
+    <header class="post-article__lead">
+      <a href={`/groups#${post.groupSlug}`} class="post-article__group">{groupName(post.groupSlug)}</a>
+      <h1>이전 게시물 기록</h1>
+    </header>
+    <div class="post-article__body">
+      <p>
+        이 주소는 이전 Wix 사이트의 사이트맵에는 남아 있었지만, 원본 페이지에는 게시물 본문이 더 이상 공개되어 있지 않습니다.
+      </p>
+      <p>
+        현재 공개된 {groupName(post.groupSlug)} 아카이브에서 다른 게시물을 확인해 주세요.
+      </p>
+      <p><a class="post-article__external" href={`/groups#${post.groupSlug}`}>공개 아카이브로 이동</a></p>
+    </div>
+  </article>
+</Layout>

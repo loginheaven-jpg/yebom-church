@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { localWixLink, localWixMedia, type WixStaticPage } from '../data/wix-static';
+
+interface Props {
+  page: WixStaticPage;
+  title?: string;
+  intro?: string;
+  noIndex?: boolean;
+}
+
+const { page, title = page.headline, intro, noIndex = false } = Astro.props;
+const firstHeadingIndex = page.blocks.findIndex((block) => /^h[1-4]$/.test(block.type) && block.text);
+---
+
+<Layout title={title} description={intro ?? `${title} | 예봄교회`} noIndex={noIndex}>
+  <article class="legacy-page">
+    <header class="legacy-page__lead">
+      <span class="legacy-page__eyebrow">YEBOM CHURCH</span>
+      <h1>{title}</h1>
+      {intro && <p>{intro}</p>}
+      <div aria-hidden="true"></div>
+    </header>
+
+    <div class="legacy-page__stream">
+      {page.blocks.map((block, index) =>
+        index === firstHeadingIndex ? null : block.type === 'image' && block.src ? (
+          <figure class="legacy-page__figure">
+            <img src={localWixMedia(block.src)} alt={block.alt ?? ''} loading="lazy" />
+          </figure>
+        ) : block.type === 'link' && block.href && block.text ? (
+          <p class="legacy-page__link"><a href={localWixLink(block.href)}>{block.text}</a></p>
+        ) : /^h[1-4]$/.test(block.type) && block.text ? (
+          <h2>{block.text}</h2>
+        ) : block.type === 'li' && block.text ? (
+          <p class="legacy-page__item">{block.text}</p>
+        ) : block.type === 'p' && block.text ? (
+          <p>{block.text}</p>
+        ) : null,
+      )}
+      {page.externalVideos.map((video) => <p class="legacy-page__link"><a href={video}>영상 보기</a></p>)}
+    </div>
+  </article>
+</Layout>
