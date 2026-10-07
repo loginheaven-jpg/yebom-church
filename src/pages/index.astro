@@ -1,106 +1,42 @@
 ---
-import '../styles/global.css';
+import Layout from '../layouts/Layout.astro';
 ---
 
-<html lang="ko">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="description" content="예봄교회, 서판교 교회, 분당 판교동, 최병희 목사 시무, 대한예수교장로회(합신)" />
-		<title>예봄교회 | 경기도 성남시 판교동 위치, 최병희 목사 시무</title>
-	</head>
-	<body class="bg-white text-gray-800 font-sans antialiased">
-		
-		<!-- Header / Navigation -->
-		<header class="bg-white shadow-sm sticky top-0 z-50">
-			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-				<div class="flex-shrink-0">
-					<a href="/" class="font-bold text-2xl text-blue-800">YEBOM CHURCH</a>
-				</div>
-				<nav class="hidden md:flex space-x-6 text-sm font-medium">
-					<a href="/about" class="hover:text-blue-600">예봄소개</a>
-					<a href="/vision" class="hover:text-blue-600">예봄비전</a>
-					<a href="/housechurch" class="hover:text-blue-600">가정교회</a>
-					<a href="/lifestudy" class="hover:text-blue-600">삶공부</a>
-					<a href="/people" class="hover:text-blue-600">예봄피플</a>
-					<a href="/mission" class="hover:text-blue-600">예봄사역</a>
-					<a href="/worship" class="hover:text-blue-600">예배안내</a>
-				</nav>
+<Layout>
+	<!-- Hero Section -->
+	<section class="relative bg-[url('https://static.wixstatic.com/media/4e60ed_e6b2c286d9a14de8bf696cbab9338f0d~mv2.jpg/v1/fill/w_1894,h_880,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4e60ed_e6b2c286d9a14de8bf696cbab9338f0d~mv2.jpg')] bg-cover bg-center py-20 lg:py-40 flex flex-col items-center justify-center text-center px-4">
+		<div class="absolute inset-0 bg-black bg-opacity-40"></div>
+		<div class="relative z-10 text-white">
+			<h1 class="text-4xl md:text-5xl font-extrabold tracking-tight mb-4">함께 울고 함께 웃는 예봄교회</h1>
+			<p class="text-lg md:text-xl max-w-2xl mt-4 leading-relaxed font-light">
+				함께 울고 웃는 예봄교회 가족들이 예수님을 함께 닮아가며 신약교회의 회복을 꿈꾸고 있습니다.
+			</p>
+		</div>
+	</section>
+
+	<!-- Mission Statement -->
+	<section class="py-20 bg-white px-4">
+		<div class="max-w-4xl mx-auto text-center">
+			<h2 class="text-3xl font-bold text-gray-900 mb-8 tracking-wider">MISSION STATEMENT</h2>
+			<p class="text-gray-800 text-xl mb-6 font-medium">
+				예수그리스도를 알지 못하는 이웃에게 생명의 복음을 전하여 하나님을 예배하게 하고 말씀으로 훈련하여 하나님과 교회와 세상을 섬기며 살게 한다.
+			</p>
+			<p class="text-gray-500 italic mb-10">
+				Our mission is to spread the gospel of life to neighbors who do not know Jesus Christ. It also makes them worship God and trains them with the Word. So they serve God, the church, and the world.
+			</p>
+			<div>
+				<a href="/about" class="inline-block border border-gray-900 text-gray-900 font-medium py-3 px-8 hover:bg-gray-900 hover:text-white transition duration-300">ABOUT YEBOM</a>
 			</div>
-		</header>
+		</div>
+	</section>
 
-		<main>
-			<!-- Hero Section -->
-			<section class="relative bg-blue-50 py-20 lg:py-32 flex flex-col items-center justify-center text-center px-4">
-				<h1 class="text-4xl md:text-5xl font-extrabold text-blue-900 tracking-tight mb-4">함께 울고 함께 웃는 예봄교회</h1>
-				<p class="text-lg md:text-xl text-gray-700 max-w-2xl mt-4 leading-relaxed">
-					함께 울고 웃는 예봄교회 가족들이 예수님을 함께 닮아가며 신약교회의 회복을 꿈꾸고 있습니다.
-				</p>
-			</section>
-
-			<!-- Mission Statement -->
-			<section class="py-16 bg-white px-4">
-				<div class="max-w-4xl mx-auto text-center">
-					<h2 class="text-2xl font-bold text-gray-900 mb-6">MISSION STATEMENT</h2>
-					<p class="text-gray-700 text-lg mb-4">
-						예수그리스도를 알지 못하는 이웃에게 생명의 복음을 전하여 하나님을 예배하게 하고 말씀으로 훈련하여 하나님과 교회와 세상을 섬기며 살게 한다.
-					</p>
-					<p class="text-gray-500 italic">
-						Our mission is to spread the gospel of life to neighbors who do not know Jesus Christ. It also makes them worship God and trains them with the Word. So they serve God, the church, and the world.
-					</p>
-					<div class="mt-8">
-						<a href="/about" class="inline-block bg-blue-600 text-white font-medium py-2 px-6 rounded hover:bg-blue-700 transition">ABOUT YEBOM</a>
-					</div>
-				</div>
-			</section>
-
-			<!-- Bible Verse Section -->
-			<section class="py-16 bg-gray-50 px-4 text-center">
-				<div class="max-w-3xl mx-auto">
-					<p class="text-xl text-gray-800 leading-relaxed font-serif">
-						"여호와는 네게 복을 주시고 너를 지키시기를 원하며 여호와는 그의 얼굴을 네게 비추사 은혜 베푸시기를 원하며 여호와는 그 얼굴을 네게로 향하여 드사 평강 주시기를 원하노라"
-					</p>
-					<p class="mt-4 text-gray-600 font-medium">- 민수기 6:24-26 -</p>
-				</div>
-			</section>
-
-			<!-- Core Values / Links -->
-			<section class="py-16 bg-white px-4">
-				<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-					<div class="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
-						<h3 class="text-xl font-bold mb-3">신약교회의 회복, 가정교회</h3>
-						<p class="text-gray-600">RESTORATION OF THE EARLY CHURCH</p>
-					</div>
-					<div class="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
-						<h3 class="text-xl font-bold mb-3">소중한 당신을 기다립니다</h3>
-						<p class="text-gray-600">WILL YOU JOIN US?</p>
-						<a href="/worship" class="mt-4 inline-block text-blue-600 hover:underline">예배안내 &rarr;</a>
-					</div>
-					<div class="p-6 border rounded-lg shadow-sm hover:shadow-md transition">
-						<h3 class="text-xl font-bold mb-3">말씀과 나눔</h3>
-						<p class="text-gray-600">설교 영상 및 은혜 나눔</p>
-						<a href="/groups" class="mt-4 inline-block text-blue-600 hover:underline">바로가기 &rarr;</a>
-					</div>
-				</div>
-			</section>
-		</main>
-
-		<!-- Footer -->
-		<footer class="bg-gray-900 text-gray-300 py-12 px-4 text-center md:text-left">
-			<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
-				<div>
-					<h2 class="text-2xl font-bold text-white mb-4">예봄교회</h2>
-					<p>경기도 성남시 분당구 운중로 285(판교동 585-1)</p>
-					<p>TEL : 031-8016-9175</p>
-					<p>E-MAIL : webs@yebom.org</p>
-				</div>
-				<div class="md:text-right flex flex-col justify-end">
-					<p class="text-sm">COPYRIGHT ⓒ 2026 YEBOM CHURCH. All RIGHTS RESERVED.</p>
-				</div>
-			</div>
-		</footer>
-
-	</body>
-</html>
+	<!-- Bible Verse Section -->
+	<section class="py-20 bg-[#f7f7f7] px-4 text-center">
+		<div class="max-w-3xl mx-auto">
+			<p class="text-2xl text-gray-800 leading-relaxed font-serif font-light mb-6">
+				"여호와는 네게 복을 주시고 너를 지키시기를 원하며 여호와는 그의 얼굴을 네게 비추사 은혜 베푸시기를 원하며 여호와는 그 얼굴을 네게로 향하여 드사 평강 주시기를 원하노라"
+			</p>
+			<p class="mt-4 text-gray-600 font-medium">- 민수기 6:24-26 -</p>
+		</div>
+	</section>
+</Layout>
