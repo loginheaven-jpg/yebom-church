@@ -1,10 +1,11 @@
 # 예봄교회 Wix → Cloudflare 공개 아카이브 구현 계획
 
-- **상태:** 구현 준비 승인됨
+- **상태:** 병행 검수 미리보기 배포 및 전수 HTTP 검증 완료 (2026-10-07)
 - **기준 원본:** `https://www.yebom.org/`
 - **현재 신규본:** `https://yebom-church.pages.dev/`
 - **작업 브랜치:** `manus/yebom-migration`
 - **배포 원칙:** Wix와 Cloudflare Pages를 병행 운영하며, 충분한 대조 검수 전에는 `master` 병합·프로덕션 교체·DNS 변경을 하지 않는다.
+- **병행 미리보기:** `https://manus-yebom-migration.yebom-church.pages.dev` (검색 차단)
 
 ## 1. 확정된 제품 정책
 

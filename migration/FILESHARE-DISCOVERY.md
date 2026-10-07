@@ -58,6 +58,8 @@ Cloudflare Pages는 단일 정적 자산을 **25 MiB** 이하로 제한한다. �
 
 `import_fileshare_archives.py`는 R2 매핑 파일의 크기와 SHA-256을 원본 추출물과 먼저 대조한 뒤, 일치할 때만 해당 파일을 R2 URL로 대체한다. Pages 빌드 결과는 **335개 링크**, **334개 Pages 파일**, **0개 25 MiB 초과 정적 자산**이어야 한다.
 
+2026-10-07에 Cloudflare Pages 병행 미리보기에서 자료실 **335개 전부**를 HTTP Range 요청으로 확인했다. 각 응답은 성공 상태였고, `Content-Range` 또는 `Content-Length`의 원본 바이트 수가 매니페스트와 일치했다.
+
 ## 원본·플랫폼 근거
 
 - Wix Media collections: <https://dev.wix.com/docs/api-reference/business-solutions/cms/collection-management/wix-app-collections/wix-media-collections>
