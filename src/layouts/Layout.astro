@@ -11,7 +11,10 @@ interface Props {
   noIndex?: boolean;
 }
 
-const { title, description = site.description, image = '/media/images/about-forest.jpg', noIndex = false } = Astro.props;
+const { title, description = site.description, image = '/media/images/about-forest.jpg', noIndex: noIndexProp = false } = Astro.props;
+const pagesBranch = process.env.CF_PAGES_BRANCH;
+const pagesProductionBranch = process.env.CF_PAGES_PRODUCTION_BRANCH ?? 'master';
+const noIndex = noIndexProp || Boolean(pagesBranch && pagesBranch !== pagesProductionBranch);
 const fullTitle = title ? `${title} | ${site.name}` : `${site.name} | ${site.subtitle}`;
 const canonical = canonicalUrl(Astro.url.pathname);
 const socialImage = new URL(image, site.publicOrigin).toString();
